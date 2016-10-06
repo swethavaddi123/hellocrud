@@ -1,0 +1,124 @@
+{
+    "name": "Maps",
+    "toggled": true,
+    "children": [
+        {
+            "id"     : "group1",
+            "map_id" : "map1",
+            "id"    : "map1",
+            "name"  : "Map 1",
+            "img"   : {
+                "path" : "./images/ScienceBldg_1.jpg",
+                "width" : "1616",
+                "height" : "1105"
+            },
+            "description" : "Map 1 description here ...",
+            "children": [
+                { 
+                    "id"    : "map1-1",
+                    "name"  : "Map 1-1",
+                    "img"   : {
+                        "path" : "./images/classroom.gif",
+                        "width" : "400",
+                        "height" : "513"
+                    },
+                    "description" : "Map 1-1 description here ...",
+                    "x"     : 10,
+                    "y"     : 50,
+                    "children": [
+                        { 
+                            "id"    : "map1-1-1",
+                            "name"  : "Map 1-1-1",
+                            "img"   : {
+                                "path" : "./images/lounge.png",
+                                "width" : "700",
+                                "height" : "600"
+                            },
+                            "description" : "Map 1-1-1 description here ...",
+                            "x"     : 10,
+                            "y"     : 50
+                        }
+                    ]
+                },
+                { 
+                    "id"    : "map1-2",
+                    "name"  : "Map 1-2",
+                    "img"   : {
+                        "path" : "./images/parking.jpg",
+                        "width" : "720",
+                        "height" : "709"
+                    },
+                    "description" : "Map 1-2 description here ...",
+                    "x"     : 10,
+                    "y"     : 50
+                },
+                {
+                    "name"  : "Camera One",
+                    "cam"   : {
+                        "id"    : "map1-cam1",
+                        "name"  : "Camera five",
+                        "url"   : "mms://208.94.175.99/camera5",
+                        "img"   : "images/cams/5.png",
+                        "ratio" : 1.33
+                     },
+                    "angle" : 180,
+                    "x"     : 200,
+                    "y"     : 300
+                }
+
+            ]
+        },
+        {
+            "id"     : "group2",
+            "map_id" : "map2",
+            "id"    : "map2",
+            "name"  : "Map 2",
+            "img"   : {
+                "path" : "images/maps/map2.jpg",
+                "width" : "1693",
+                "height" : "2130"
+            },
+            "description" : "Map 2 description here ...",
+            "children": [
+                { 
+                    "id"    : "map2-1",
+                    "name"  : "Map 2-1",
+                    "img"   : {
+                        "path" : "images/maps/map3.jpg",
+                        "width" : "553",
+                        "height" : "612"
+                    },
+                    "description" : "Map 2-1 description here ...",
+                    "x"     : 10,
+                    "y"     : 50
+                },
+                { 
+                    "id"    : "map2-2",
+                    "name"  : "Map 2-2",
+                    "img"   : {
+                        "path" : "images/maps/map5.jpg",
+                        "width" : "1386",
+                        "height" : "1071"
+                    },
+                    "description" : "Map 2-2 description here ...",
+                    "x"     : 10,
+                    "y"     : 50
+                },
+                {
+                    "name"  : "Camera One",
+                    "cam"   : {
+                        "id"    : "map2-cam1",
+                        "name"  : "Camera five",
+                        "url"   : "mms://208.94.175.99/camera5",
+                        "img"   : "images/cams/5.png",
+                        "ratio" : 1.33
+                     },
+                    "angle" : 180,
+                    "x"     : 200,
+                    "y"     : 300
+                }
+
+            ]
+        }
+    ]
+}
